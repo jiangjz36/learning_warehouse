@@ -32,7 +32,7 @@
     - .co 表示用户自定义的别名
     - checkout 表示原指令
     - `cat ~/.gitconfig` 配置会放在主目录下的文件中
-    - `vim ~/.bash_profile` 通过文件配置别名
+    - `vim ~/.bash_profile` 也可以通过文件批量配置别名
 5. 设置需要忽略的文件
   - `git config --global core.excludesfile ~/.gitignore_global` 定义在全局范围内忽略的配置文件位置
     - `core.excludesfile` 配置忽略文件的位置
