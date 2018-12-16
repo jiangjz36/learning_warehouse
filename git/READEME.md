@@ -42,3 +42,11 @@
     - `touch .DS_Store` 可以手动创建文件，并测试配置是否生效
     - __git无法忽略已跟踪的文件,可以使用git rm等指令修改__
 6. `git init`初始化项目
+7. 项目操作三连+1
+  1. `git status`
+    - ![git status](./images/2018/12/2018-12-16_195035.png)
+    - ![git status](./images/2018/12/2018-12-16_195631.png)
+  2. `git add .` 添加所有修改的文件
+    - ![git add .](./images/2018/12/2018-12-16_200051.png)
+  3. `git commit -m '提交描述'`
+  4. `git push`
