@@ -39,3 +39,4 @@
     - `vim ~/.gitignore_global` 编辑该配置文件并在其中写入
       - `.DS_Store` 配置忽略os的文件
     - `touch .DS_Store` 可以手动创建文件，并测试配置是否生效
+    - __git无法忽略已跟踪的文件,可以使用git rm等指令修改__
