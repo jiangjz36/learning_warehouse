@@ -56,3 +56,13 @@
   - ![git diff](./images/2018/12/2018-12-16_201115.png)
   - ![git diff --staged](./images/2018/12/2018-12-16_202342.png)
 10. 重命名git已经跟踪的文件
+  1. 方法1：通过文件管理器修改文件
+    1. ![修改已跟踪文件的文件名-方法1](./images/2018/12/2018-12-16_203431.png)
+      1. `git rm test.txt` 告诉git要删除文件
+      2. `git add test1.txt`
+      3. ![git rm 重命名文件](./images/2018/12/2018-12-16_205411.png)
+  2. 方法2：使用`git mv 要修改的文件 新的文件名`
+    1. `git mv git/test1.txt test2.txt`
+      1. ![git mv](./images/2018/12/2018-12-16_212439.png)
+11. `git mv` 移动文件
+  1. git不会跟踪空文件夹
