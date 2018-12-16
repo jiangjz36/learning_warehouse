@@ -49,4 +49,10 @@
   2. `git add .` 添加所有修改的文件
     - ![git add .](./images/2018/12/2018-12-16_200051.png)
   3. `git commit -m '提交描述'`
-  4. `git push`
+8. `git log` 查看提交的日志
+  - ![git commit -m '', git log](./images/2018/12/2018-12-16_200700.png)
+9. `git diff [文件名]` 查看文件暂存区和工作目录的区别
+  - `git diff --staged` 查看文件暂存区和仓库的区别
+  - ![git diff](./images/2018/12/2018-12-16_201115.png)
+  - ![git diff --staged](./images/2018/12/2018-12-16_202342.png)
+10. `git push`
