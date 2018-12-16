@@ -55,4 +55,4 @@
   - `git diff --staged` 查看文件暂存区和仓库的区别
   - ![git diff](./images/2018/12/2018-12-16_201115.png)
   - ![git diff --staged](./images/2018/12/2018-12-16_202342.png)
-10. `git push`
+10. 重命名git已经跟踪的文件
